@@ -1,0 +1,40 @@
+@media only screen and (max-width: 628px){
+    .card{
+        grid-template-columns: 1fr;
+    }
+    .image{
+        max-height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .text{
+        display: block;
+    }
+    .price{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .caixa{
+        margin: 15px auto;
+        padding: 0 15px;
+    }
+    .image{
+        max-height: 290px;
+    }
+    .card{
+        padding: 24px;
+    }
+    .price{
+        padding: 16px;
+    }
+    .fraunces{
+        font-size: 28px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .new-price{
+        font-size: 23px;
+    }
+}

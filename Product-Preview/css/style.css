@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.text{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caixa{
+  margin: 30px auto;
+  padding: 0 30px;
+}
+.fraunces{
+    font-family: "Fraunces";
+    font-size: 40px;
+    line-height: 1em;
+    color: hsl(212, 21%, 14%);
+}
+p{
+    font-family: "Montserrat";
+    font-size: 17px;
+    color: hsl(228, 12%, 48%);
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img{
+    max-width: 100%;
+}
+.new-price{
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+.old-price{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cta{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    transition: background-color .3s ease;
+    width: 100%;
+}
+.cta img{
+    padding-right: 7px;
+}
+.cta:hover{
+    background-color: hsl(158, 36%, 25%);
+    cursor:pointer
+}
